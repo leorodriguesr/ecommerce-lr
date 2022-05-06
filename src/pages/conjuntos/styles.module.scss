@@ -1,0 +1,55 @@
+.name {
+  height: 60px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(233, 233, 233, 233);
+}
+
+.containerRoupasNav {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  // h2 {
+  //   margin-bottom: 20px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  // }
+}
+
+.card {
+  width: 318px;
+  height: 490px;
+  overflow: hidden;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1);
+}
+
+.image {
+  width: 322px;
+  height: 410px;
+  background-color: #c8aa82;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 10px;
+}
+
+.p1 {
+  font-size: 16px;
+}
+
+.p2 {
+  font-size: 13px;
+  margin-left: 10px;
+}

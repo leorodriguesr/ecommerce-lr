@@ -1,0 +1,102 @@
+// .slider {
+//   margin: 0 auto;
+//   height: 595px;
+
+//   overflow: hidden;
+
+//   // width: 100vw;
+//   position: relative;
+// }
+
+// .slides {
+//   width: 400%; /*Aparece uma imagem de cada vez pq sao 4 imagens, se fosse 5 imagens tinha que ser 500%. Se eu deixo 100% aparece as 4 juntas.*/
+//   display: flex;
+//   height: 100%;
+
+//   input {
+//     display: none;
+//   }
+// }
+
+
+// .manualNavigation {
+//   position: absolute;
+//   display: flex;
+
+//   bottom: 40px;
+//   left: 50%;
+//   transform: translate(-50%);
+// }
+
+// .manualBtn {
+//   border: 2px solid black;
+//   padding: 5px;
+//   border-radius: 20px;
+//   cursor: pointer;
+// }
+
+// .manualBtn:not(:last-child) {
+//   /*O ultimo filho nao recebe a margin*/
+//   margin-right: 40px;
+// }
+
+// .manualBtn:hover {
+//   background-color: black;
+//   transition: 0.4s;
+// }
+
+
+// #radio1:checked ~ .slide {
+//   margin-left: 0;
+// } 
+
+// #radio2:checked ~ .slide {
+//   margin-left: -25%;
+
+// }
+
+// #radio3:checked ~ .slide {
+//   margin-left: -50%;
+// }
+
+// #radio4:checked ~ .slide {
+//   margin-left: -75%;
+// }
+
+
+
+
+// .navigationAuto div{
+//   border: 2px solid black;
+//   padding: 5px;
+//   border-radius: 20px;
+//   cursor: pointer;
+//   transition: 0.4s;
+
+// }
+
+// .navigationAuto div:not(:last-child) {
+//   /*O ultimo filho nao recebe a margin*/
+//   margin-right: 40px;
+// }
+
+// .navigationAuto {
+//   position: absolute;
+//   display: flex;
+//   bottom: 40px;
+//   left: 50%;
+//   transform: translate(-50%);
+// }
+
+// #radio1:checked ~ .navigationAuto .autoBtn1{
+//   background-color: #fff;
+// }
+// #radio2:checked ~ .navigationAuto .autoBtn2{
+//   background-color: #fff;
+// }
+// #radio3:checked ~ .navigationAuto .autoBtn3{
+//   background-color: #fff;
+// }
+// #radio4:checked ~ .navigationAuto .autoBtn4{
+//   background-color: #fff;
+// }

@@ -1,0 +1,14 @@
+.SearchContainer {
+  display: flex;
+  border-bottom: 1px solid black;
+
+  input {
+    width: 150px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    // background-color: #f2f6fc;
+    background-color: #fff;
+  }
+}

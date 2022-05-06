@@ -1,0 +1,75 @@
+.container {
+  width: 90%;
+  margin: 20px auto;
+
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.card {
+  width: 318px;
+  height: 490px;
+  overflow: hidden;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1);
+}
+
+
+
+
+// .slick-prev:before {
+//   content: "<";
+//   color: red;
+//   font-size: 30px;
+// }
+
+// .slick-next:before {
+//   content: ">";
+//   color: red;
+//   font-size: 10px;
+// }
+
+
+// .slick-slide > div {
+//   margin: 0 10px;
+// }
+
+// .slick-list {
+//   margin: 0 -10px;
+// }
+
+
+
+
+
+
+.image {
+  width: 322px; 
+  height: 410px;
+  // background-color: blue;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 10px;
+}
+
+.p1 {
+  font-size: 16px;
+}
+
+.p2 {
+  font-size: 13px;
+  margin-left: 10px;
+}

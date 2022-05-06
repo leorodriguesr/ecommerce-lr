@@ -1,0 +1,133 @@
+.headerContainer {
+  height: 11rem;
+  // background-color: #f2f6fc;
+  background-color: #fff;
+  
+}
+
+.headerTop {
+  height: 2rem;
+  background-color: black;
+  color: #ffff;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    letter-spacing: 2px;
+    // animation-duration: 20s;
+    // animation-name: slidein;
+    // animation-iteration-count: infinite;
+    // animation-direction: alternate;
+  }
+
+  // @keyframes slidein {
+  //   from {
+  //     margin-left: 1%;
+  //     width: 300%;
+  //   }
+
+  //   to {
+  //     margin-left: 67%;
+  //     width: 100%;
+  //   }
+  // }
+}
+
+.headerContent {
+  height: 5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+
+  nav {
+    // margin-left: 0 auto;
+    font-size: 13px;
+
+    a {
+      cursor: pointer;
+
+      & + a {
+        margin-left: 1.5rem;
+      }
+    }
+
+    a:hover {
+      font-weight: bold;
+    }
+  }
+
+  span {
+    border: 2px solid black;
+    font-weight: bold;
+    
+    font-size: 23px;
+    padding: 2px;
+    cursor: pointer;
+    height: 2rem;
+    box-shadow: 1px 1px black;
+    margin-left: 200px;
+    // color: black;
+  }
+
+
+  section {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+
+  }
+}
+
+.headerSearch {
+  margin-left: 200px;
+}
+
+.headerNav {
+  height: 3rem;
+  max-width: 850px;
+  margin: 0 auto;
+  
+  
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 13px;  
+
+    a {
+      padding: 13px;
+      transition: ease 0.3s;
+    }
+
+    a:hover {
+      font-weight: bold;
+      cursor: pointer;
+      color: white;
+    }
+
+    .a1:hover {
+      background-color: #7995A0;
+    }
+    .a2:hover {
+      background-color: #9A7AA0;
+    }
+    .a3:hover {
+      background-color: #C89C63;
+    }
+    .a4:hover {
+      background-color: #D0738B;
+    }
+    .a5:hover {
+      background-color: #D0AB57;
+    }
+    .a6:hover {
+      background-color: #474C22;
+    }
+  }
+}
