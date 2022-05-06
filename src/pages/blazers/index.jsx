@@ -1,6 +1,6 @@
 import { BannerNav } from "../../components/BannerNav";
 
-import { RoupasNavs } from "../../pages/api/data";
+import { RoupasNavs } from "../api/data";
 import styles from "./styles.module.scss";
 
 import { MdFavoriteBorder } from "react-icons/md";

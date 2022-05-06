@@ -20,7 +20,7 @@ export function Queridinhos() {
             <button>confira</button>
           </div>
         </Link>
-        <Link href="/saias" passHref>
+        <Link href="/calcas" passHref>
           <div className={styles.images}>
             <Image src={image3} alt="image3" />
             <h2>Saias</h2>

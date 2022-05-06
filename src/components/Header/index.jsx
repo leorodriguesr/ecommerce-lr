@@ -39,9 +39,9 @@ export function Header() {
 
         <section>
           <div>
-            {/* <MdPersonOutline style={{ fontSize: "23px", cursor: "pointer" }} /> */}
+            <MdPersonOutline style={{ fontSize: "23px", cursor: "pointer" }} />
 
-            <Login />
+            {/* <Login /> */}
           </div>
           <div>
             <MdFavoriteBorder style={{ fontSize: "23px", cursor: "pointer" }} />
