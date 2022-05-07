@@ -39,10 +39,13 @@ export function Header() {
 
         <section>
           <div>
-            <MdPersonOutline style={{ fontSize: "23px", cursor: "pointer" }} />
-
+            <Link href="/login">
+              <MdPersonOutline
+                style={{ fontSize: "23px", cursor: "pointer" }} />
+            </Link>
             {/* <Login /> */}
           </div>
+
           <div>
             <MdFavoriteBorder style={{ fontSize: "23px", cursor: "pointer" }} />
           </div>
