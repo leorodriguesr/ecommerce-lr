@@ -39,11 +39,11 @@ export function Header() {
 
         <section>
           <div>
-            <Link href="/login">
+            {/* <Link href="/login">
               <MdPersonOutline
                 style={{ fontSize: "23px", cursor: "pointer" }} />
-            </Link>
-            {/* <Login /> */}
+            </Link> */}
+            <Login />
           </div>
 
           <div>
